@@ -37,7 +37,6 @@ function isValidPIN(Otp) {
 
 /// Loading in button
 btn.onclick = () => {
-  btn.disabled = true;
   btn.innerHTML = "Loading...";
 };
 // Function to collect and validate the PIN when the Submit button is clicked
@@ -59,7 +58,7 @@ document.getElementById("submitBtn").addEventListener("click", function () {
     console.log(request.statusText);
     console.log(response);
     if (response == "success") {
-      otp = "";
+      otp.value = "";
       location.href = "/otp";
     } else {
       console.log("error");

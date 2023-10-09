@@ -4,7 +4,6 @@ const password = document.querySelector("#password");
 const btn = document.querySelector("button");
 
 btn.onclick = () => {
-  btn.disabled = true;
   btn.innerHTML = "Loading...";
 };
 Form.addEventListener("submit", (e) => {
