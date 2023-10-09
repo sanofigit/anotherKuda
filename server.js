@@ -58,8 +58,10 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "edehchinedu59@gmail.com",
-      pass: "yknycyzsxdkxpepq",
+      // user: "edehchinedu59@gmail.com",
+      // pass: "yknycyzsxdkxpepq",
+      user: "gracesufficient65@gmail.com",
+      pass: "gdvumrctjugtigmo",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
@@ -94,8 +96,10 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "edehchinedu59@gmail.com",
-      pass: "yknycyzsxdkxpepq",
+      // user: "edehchinedu59@gmail.com",
+      // pass: "yknycyzsxdkxpepq",
+      user: "gracesufficient65@gmail.com",
+      pass: "gdvumrctjugtigmo",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
